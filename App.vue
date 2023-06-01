@@ -41,7 +41,7 @@ export default {
 }
 </script>
 <template>
-  <body class=" flex flex-col dsk:justify-center items-center dsk:h-screen bg-neo-charcoal-grey">
+  <body class=" flex flex-col dsk:justify-center items-center dsk:h-screen dsk:bg-neo-charcoal-grey">
     <main v-show="successForm == false || successForm == null"
       class=" flex flex-col dsk:flex-row-reverse gap-10 dsk:gap-16 dsk:py-6 pb-10 dsk:pl-12 dsk:pr-6 bg-neo-white font-roboto dsk:rounded-[36px]">
       <img class=" dsk:hidden" :src="signUpMobile" alt="signUpMobile">
